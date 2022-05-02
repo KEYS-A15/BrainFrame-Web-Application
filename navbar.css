@@ -1,0 +1,60 @@
+.nav a{
+    text-decoration: none;
+    color: blanchedalmond;
+}
+.N1{
+    display: block;
+    float: left;
+    padding: 2px 49px;
+    padding-left: 2.5rem;
+    padding-right: 13px;
+    margin-top: 5px;
+}
+.N2,.N3,.N4{
+    padding: 16px 23px;
+    display: block;
+    float: left;
+    font-family: montserrat;
+    font-weight: 800;
+    font-size: 19px;
+
+}
+.nav{
+    height: 3.2rem;
+    background-color: black;
+    overflow: hidden ;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.N2:hover{
+    color: rgb(248, 113, 113);
+}
+.N3:hover{
+    color: rgb(56, 212, 240);
+}
+.N4:hover{
+    color: rgb(206, 147, 21);
+}
+.leftav{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.rightav{
+    margin-left: 30rem;
+}
+#sr{
+    border: none;
+    border-radius: 6px;
+    width: 15em;
+    height: 1.6em;
+    font-family: Montserrat;
+    font-weight: 500;
+}
+#sr:placeholder-shown{
+    font-family: Montserrat;
+    font-weight: 300;
+    background-color: rgb(49, 49, 49);
+    text-align: end;
+}
